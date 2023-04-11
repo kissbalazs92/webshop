@@ -1,11 +1,11 @@
 <?php
 
-$host = "webshop-db-1";
+$host = "web_application-db-1";
 $db = "webshop";
 $user = "webshop_user";
 $pass = "webshop_password";
 $charset = 'utf8mb4';
-$port = 3307;
+$port = 3308;
 
 $dsn = "mysql:host=$host;port=$port;dbname=$db;charset=$charset";
 $options = [
