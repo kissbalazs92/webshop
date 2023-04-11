@@ -2,7 +2,6 @@
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
-include 'success_message.php';
 
 if (!isset($_SESSION['username']) || !isset($_SESSION['user_id'])) {
     header('Location: admin.php');
