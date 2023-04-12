@@ -35,7 +35,7 @@ $categories = getCategories($pdo);
     <title>Webshop</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <script>src="js/messages.js"</script>
+    <scripts rc="js/messages.js"></script>
 </head>
 <body>
     <header>
